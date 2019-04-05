@@ -39,5 +39,19 @@ These aren’t difficult to understand at all. Basically, we have again two cont
 
 For the basic skeleton, the main div has a class of **.container** and also an id of **.container** because we want to target this element in the Javascript.
 
+# Sign Up Form and Sign In Form
 
+We also have a few classes on each div:
+
+- The .form-container class will contain the CSS which is duplicated for both the .sign-in-container and .sign-up-container classes
+
+- The 2 different classes (mentioned above) will contain the CSS which is different.
+
+This way we avoid having to write the same CSS code twice and we use the power of being able to add multiple classes.
+
+You might have also noticed that the i tags have some classes. These are because we are using FontAwesome for the icons. Read more about them on their website.
+
+# The Overlay Container
+
+Same as above, we have a common class .overlay-panel and two different classes: .overlay-left and .overlay-right. Also, we have ids for the buttons as we're going to add an onClick eventListener for both of them in the JavaScript.
 
